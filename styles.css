@@ -8,14 +8,20 @@ body {
 }
 
 .wrapper {
-  margin:auto;
-  width:80%;
+  margin: auto;
+  width: 80%;
   border:dashed 1px red;
 }
 
 .header {
   display:flex;
   justify-content: space-between;
+}
+
+.logo,
+.menu {
+  display: inline-block;
+  border: dashed 1px red;
 }
 
 .logo {
