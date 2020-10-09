@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  border: dashed 1px red;
 }
 
 .wrapper {
@@ -24,7 +23,7 @@ body {
 
 .logo {
   padding: 40px 0;
-  font-family: pt_serifbold, arial,helvetica, sans-serif;
+  font-family: pt_serif, arial,helvetica, sans-serif;
 }
 
 .menu {
