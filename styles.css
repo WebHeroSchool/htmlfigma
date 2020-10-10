@@ -74,13 +74,23 @@ body {
   content:"";
   width: 100px;
   height: 3px;
-  background: #0056ec
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
 
 .menu__item:hover {
   opacity: .5;
+}
+
+.menu__item:hover::after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content:"";
+  width: 100px;
+  height: 3px;
+  background: #0056ec;
 }
 
 .menu__item:hover::after,
