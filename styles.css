@@ -67,7 +67,7 @@ body {
   margin-right: 0;
 }
 
-.menu__item_active:after {
+.menu__item_active::after {
   position: absolute;
   left: 0;
   display: block;
