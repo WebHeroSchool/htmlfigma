@@ -104,16 +104,17 @@ body {
   position: relative;
   height: 1920px;
   display: block;
+  top: 32px;
   align-items: center;
-  padding-right: 63%;
-  background: top right no-repeat url(img/maining.svg);
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
 }
 
 .main_title {
   position: relative;
   margin: 0 0 40px 0;
   margin-bottom: 40px;
-  font: 700 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
