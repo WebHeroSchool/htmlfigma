@@ -107,6 +107,8 @@ body {
   top: 32px;
   align-items: center;
   padding: 0 63% 100px 0;
+  padding-right: 63%;
+  width: 37%;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
@@ -128,9 +130,9 @@ body {
   top: 70px;
   left: -10px;
   margin: 0 91 41px 9;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  font: 500 18/21px Roboto, arial, helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 41px;
+  font: 600 18/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main_button {
@@ -140,7 +142,7 @@ body {
   display: inline-block;
   padding: 14px 16px;
   margin: 0 0 40px 8px;
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 600 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   text-decoration: none;
