@@ -116,7 +116,7 @@ body {
   left: -10px;
   margin: -1 -20 40px 10px;
   margin-bottom: 40px;
-  font: 700 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
