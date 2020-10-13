@@ -53,11 +53,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin: 1px 7px -5px 0;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 27px;
+  margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
