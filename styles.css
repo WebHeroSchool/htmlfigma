@@ -110,7 +110,7 @@ body {
   background: top right no-repeat url(img/mainimg.svg);
 }
 
-.main_title {
+.main__title {
   position: relative;
   top: 74px;
   left: -10px;
@@ -123,7 +123,7 @@ body {
   background: #ecf3ff;
 }
 
-.main_subtitle {
+.main__subtitle {
   position: relative;
   top: 70px;
   left: -10px;
