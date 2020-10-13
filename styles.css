@@ -58,7 +58,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 28px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -107,7 +107,7 @@ body {
   top: 32px;
   display: block;
   align-items: center;
-  padding-right: 63%;
+  padding-right: 64%;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
