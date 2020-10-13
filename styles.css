@@ -58,7 +58,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 600 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -107,14 +107,13 @@ body {
   top: 32px;
   align-items: center;
   padding-right: 63%;
-  width: 37%;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
 .main_title {
   position: relative;
   top: 74px;
-  left: -5px;
+  left: -10px;
   margin: -1 -20 40px 10px;
   margin-bottom: 40px;
   font: 700 50px/65px pt_serifbold, arial, helvetica, sans-serif;
@@ -131,17 +130,17 @@ body {
   margin: 0 91 41px 9;
   margin-top: 30px;
   margin-bottom: 41px;
-  font: 600 18/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18/21px Roboto, arial, helvetica, sans-serif;
 }
 
-.main_button {
+.main__button {
   position: relative;
   top: 72px;
   right: 8px;
   display: inline-block;
   padding: 14px 16px;
   margin: 0 0 40px 8px;
-  font: 600 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   text-decoration: none;
