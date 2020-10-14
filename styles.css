@@ -14,6 +14,7 @@ body {
 .header {
   display:flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo,
@@ -52,12 +53,13 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin: 1px 7px -5px 0;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 600 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin-right: 28px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -97,4 +99,56 @@ body {
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
+}
+
+.main {
+  position: relative;
+  height: 1920px;
+  top: 32px;
+  display: block;
+  align-items: center;
+  padding-right: 64%;
+  background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__title {
+  position: relative;
+  top: 73px;
+  left: -10px;
+  margin: -2px -20px 40px 10px;
+  margin-bottom: 40px;
+  font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main__title-text_highlight {
+  background: #ecf3ff;
+}
+
+.main__subtitle {
+  position: relative;
+  top: 70px;
+  left: -10px;
+  margin: 0 90px 41px 8px;
+  margin-top: 30px;
+  margin-bottom: 41px;
+  font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+  position: relative;
+  top: 72px;
+  right: 8px;
+  display: inline-block;
+  padding: 18px 21px;
+  margin: -1px 0 40px 9px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056ec;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
