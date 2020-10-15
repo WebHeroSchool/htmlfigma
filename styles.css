@@ -164,7 +164,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .logo,
+  .logo__text,
   .menu {
     display: none;
   }
