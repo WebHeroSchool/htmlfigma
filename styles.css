@@ -164,10 +164,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  .logo__text,
+  .logo,
   .menu {
     display: none;
   }
+
   .wrapper {
     width: 87%;
   }
@@ -189,7 +190,7 @@ body {
 
   .main__title {
     margin-bottom: 31px;
-    font: bold 30px/40px pt_serifbold, arial, helvetica, sans-serif;
+    font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
@@ -199,6 +200,6 @@ body {
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    padding: 14px 22px;
+    padding: 14px 21px;
   }
 }
