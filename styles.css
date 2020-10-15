@@ -174,7 +174,11 @@ body {
   }
 
   .burger-menu {
-    height: 35px;
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    width: 25px;
+    height: 17px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,6 +189,7 @@ body {
   }
 
   .main {
+    text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
