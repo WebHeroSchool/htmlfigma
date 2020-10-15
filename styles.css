@@ -101,6 +101,16 @@ body {
   width: 100%;
 }
 
+.burger-menu {
+  display: none;
+}
+
+.burger-menu_whale {
+  width: 25px;
+  height: 3px;
+  background: #0056ec;
+}
+
 .main {
   position: relative;
   padding-bottom: 250px;
@@ -154,32 +164,41 @@ body {
 }
 
 @media (max-width: 768px) {
+  .logo__text,
   .menu {
     display: none;
   }
+  .wrapper {
+    width: 87%;
+  }
 
-  .header{
+  .burger-menu {
+    height: 17px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
     margin-bottom: 28px;
   }
 
   .main {
-    text-align: center;
-    padding: 74% 0 0;
-    background-size: 74%;
-    background-position: top center;
+    padding-top: 73%;
   }
 
   .main__title {
-    margin-bottom: 44px;
-    font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+    margin-bottom: 31px;
+    font: bold 30px/40px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin-bottom: 25px;
+    margin: 0 0 44px 0;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    padding: 14px 22px;
   }
 }
