@@ -176,7 +176,7 @@ body {
   .burger-menu {
     position: absolute;
     left: 85%;
-    top: 8%;
+    top: 3%;
     width: 25px;
     height: 17px;
     display: inline-flex;
@@ -201,7 +201,7 @@ body {
   }
 
   .main__subtitle {
-    text-align: center;
+    left: 15px;
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
