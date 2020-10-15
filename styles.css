@@ -174,7 +174,7 @@ body {
   }
 
   .burger-menu {
-    height: 17px;
+    height: 35px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,21 +185,22 @@ body {
   }
 
   .main {
-    padding-top: 73%;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
   }
 
   .main__title {
-    margin-bottom: 31px;
+    margin-bottom: 44px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin: 0 0 44px 0;
+    margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    padding: 14px 21px;
   }
 }
