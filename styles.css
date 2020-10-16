@@ -189,24 +189,28 @@ body {
   }
 
   .main {
+    position: relative;
     text-align: center;
-    padding: 74% 0 0;
+    padding: 55% 0 0;
     background-size: 74%;
     background-position: top center;
   }
 
   .main__title {
+    position: relative;
     margin-bottom: 44px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
+    position: relative;
     left: 25px;
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
+    position: relative;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
