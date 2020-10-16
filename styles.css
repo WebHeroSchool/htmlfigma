@@ -185,19 +185,20 @@ body {
   }
 
   .header {
-    margin-bottom: 28px;
+    margin-bottom: 16px;
   }
 
   .main {
     position: relative;
     text-align: center;
     padding: 74% 0 0;
-    background-size: 78%;
+    background-size: 88%;
     background-position: top center;
   }
 
   .main__title {
     position: relative;
+    top: 40%;
     margin-bottom: 44px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
@@ -206,9 +207,8 @@ body {
     position: relative;
     top: 15%;
     margin: 0 53px 0 47px;
-    left: 35px;
-    margin-top:
-    margin-bottom: 25px;
+    padding-left: 37px;
+    margin-bottom: 20px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
