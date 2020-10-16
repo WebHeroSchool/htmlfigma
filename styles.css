@@ -163,7 +163,7 @@ body {
   opacity: .5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 667px) {
   .logo__text,
   .menu {
     display: none;
@@ -175,8 +175,8 @@ body {
 
   .burger-menu {
     position: absolute;
-    left: 85%;
-    top: 3%;
+    left: 90%;
+    top: 5%;
     width: 25px;
     height: 17px;
     display: inline-flex;
@@ -201,7 +201,7 @@ body {
   }
 
   .main__subtitle {
-    left: 15px;
+    left: 25px;
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
