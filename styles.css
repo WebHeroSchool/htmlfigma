@@ -171,6 +171,7 @@ body {
 
   .wrapper {
     width: 85%;
+    margin: 0 auto;
   }
 
   .burger-menu {
@@ -189,6 +190,7 @@ body {
   }
 
   .main {
+    padding-bottom: 150px;
     text-align: center;
     padding: 70% 0 0;
     background-size: 88%;
