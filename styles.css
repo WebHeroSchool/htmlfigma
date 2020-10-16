@@ -170,7 +170,7 @@ body {
   }
 
   .wrapper {
-    width: 100%;
+    width: 85%;
   }
 
   .burger-menu {
@@ -191,21 +191,21 @@ body {
   .main {
     position: relative;
     text-align: center;
-    padding: 55% 0 0;
+    padding: 74% 0 0;
     background-size: 78%;
     background-position: top center;
   }
 
   .main__title {
     position: relative;
-    margin-bottom: 44px;
+    margin-bottom: 112px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     position: relative;
-    left: 30px;
-    margin-bottom: 25px;
+    left: 33px;
+    margin-bottom: 43px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
