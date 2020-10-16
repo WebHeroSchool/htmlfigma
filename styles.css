@@ -175,7 +175,7 @@ body {
 
   .burger-menu {
     position: absolute;
-    left: 80%;
+    left: 90%;
     top: 5%;
     width: 25px;
     height: 17px;
@@ -185,13 +185,13 @@ body {
   }
 
   .header {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
 
   .main {
     position: relative;
     text-align: center;
-    padding: 74% 0 0;
+    padding: 69% 0 0;
     background-size: 88%;
     background-position: top center;
   }
@@ -206,8 +206,7 @@ body {
   .main__subtitle {
     position: relative;
     top: 15%;
-    padding-left: 37px;
-    margin-bottom: 20px;
+    margin-bottom: 44px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
