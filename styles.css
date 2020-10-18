@@ -178,10 +178,11 @@ body {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
+    transform:
   }
 
   .logo |{
-    left: -10px;
+    left: -25px;
   }
 
   .header {
@@ -195,6 +196,7 @@ body {
     margin-top: 28px;
     background-size: 100%;
     background-position: top center;
+    transition: translateY(-20%)
   }
 
   .main__title {
@@ -203,12 +205,13 @@ body {
   }
 
   .main__subtitle {
-    left: 28px;
+    left: 32px;
     margin-bottom: 38px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
+    left: 10px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
