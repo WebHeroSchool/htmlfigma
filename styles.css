@@ -169,6 +169,11 @@ body {
     display: none;
   }
 
+  .logo {
+    margin-left: -37px;
+    padding: 24px 0;
+  }
+
   .wrapper {
     width: 85%;
   }
@@ -185,27 +190,25 @@ body {
   }
 
   .header {
-    margin-bottom: 16px;
+    width: 290px;
+    margin-bottom: 5px;
   }
 
   .main {
-    padding-bottom: 43px;
     text-align: center;
-    padding: 70% 0 0;
-    background-size: 88%;
+    padding: 92% 0 0;
+    background-size: 110%;
     background-position: top center;
   }
 
   .main__title {
-    position: relative;
-    margin-bottom: 44px;
+    margin: 25px 0px 34px 0px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    position: relative;
-    left: 53px;
-    margin-bottom: 44px;
+    max-width: 285px;
+    margin-bottom: 38px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
