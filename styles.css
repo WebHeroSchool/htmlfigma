@@ -187,7 +187,7 @@ body {
   .main {
     text-align: center;
     padding: 74% 0 0;
-    background-size: 100%;
+    background-size: 90%;
     background-position: top center;
   }
 
@@ -197,7 +197,7 @@ body {
   }
 
   .main__subtitle {
-    left: 25px;
+    left: 30px;
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
