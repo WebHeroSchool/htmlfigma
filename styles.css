@@ -212,12 +212,7 @@ body {
   .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 90px;
-  }
-
-  .logo {
-    left: 46px;
-    top: -25px;
+    margin-bottom: 75px;
   }
 
   .mobile_menu {
@@ -231,8 +226,8 @@ body {
 
   .menu {
     position: relative;
-    left: 76px;
-    top: -25px;
+    left: 51px;
+    top: 20px;
   }
 
   .menu__item {
@@ -247,19 +242,21 @@ body {
     display: block;
     align-items: center;
     padding-right: 50%;
-    background-size: 50%;
+    background-size: 60%;
   }
 
   .main__title {
-    font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
+    left: -20px
+    top: 140px;
     margin-bottom: 40px;
   }
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: 0 90px 40px 8px;
+    margin: 0 10px 41px 8px;
     margin-bottom: 41px;
     left: 46px;
   }
@@ -268,72 +265,71 @@ body {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     position: relative;
     padding: 18px 21px;
-    margin: 1px 0 35px 8px;
     display: inline-block;
   }
 }
 
-  @media (min-width 1025px) and (max-width: 1366px) {
-    .header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 100%;;
-    }
-
-    .logo {
-      left: 81px;
-      top: -24px;
-    }
-
-    .mobile_menu {
-      display: none;
-    }
-
-    .wrapper {
-      margin: auto;
-      width: 80%;
-    }
-
-    .menu {
-      position: relative;
-      left: 43px;
-      top: -25px;
-    }
-
-    .menu__item {
-      font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-      margin-right: 21px;
-    }
-
-    .main {
-      position: relative;
-      padding-bottom: 150px;
-      top: 30px;
-      display: block;
-      align-items: center;
-      padding-right: 50%;
-      background-size: 50%;
-    }
-
-    .main__title {
-      position: relative;
-      margin-bottom: 40px;
-      font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
-    }
-
-    .main__subtitle {
-      font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-      position: relative;
-      margin: 0 90px 41px 8px;
-      margin-top: 30px;
-      margin-bottom: 41px;
-    }
-
-    .main__button {
-      font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-      position: relative;
-      display: inline-block;
-      padding: 18px 21px;
-      margin: -1px 0 40px 9px;
-    }
+  @media (min-width: 1025px) and (max-width: 1366px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100%;
   }
+
+  .logo {
+    left: 81px;
+    top: -24px;
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+  .menu {
+    position: relative;
+    left: 43px;
+    top: -25px;
+  }
+
+  .menu__item {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    margin-right: 21px;
+  }
+
+  .main {
+    position: relative;
+    padding-bottom: 150px;
+    top: 30px;
+    display: block;
+    align-items: center;
+    padding-right: 50%;
+    background-size: 50%;
+  }
+
+  .main__title {
+    position: relative;
+    margin-bottom: 40px;
+    font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+    margin: 0 90px 41px 8px;
+    margin-top: 30px;
+    margin-bottom: 41px;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 18px 21px;
+    margin: -1px 0 40px 9px;
+  }
+}
