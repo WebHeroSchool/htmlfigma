@@ -225,15 +225,17 @@ body {
   }
 
   .menu {
-    margin: 0;
-    position: relative;
-    left: 51px;
-    top: 20px;
+    display: flex;
+    align-items: center;
+    margin: 1px 7px -5px 0;
   }
 
   .menu__item {
+    position: relative;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     margin-right: 21px;
+    text-decoration: none;
+    transition: .5s;
   }
 
   .main {
@@ -293,8 +295,8 @@ body {
 
   .menu {
     position: relative;
-    margin-left: -20px;
-    margin-top: 15px;
+    left: -20px;
+    top: 15px;
   }
 
   .menu__item {
@@ -307,11 +309,9 @@ body {
     margin: 0;
     margin-top: 0;
     margin-left: 85px;
-    padding-bottom: 150px;
     display: block;
     align-items: center;
     padding-right: 50%;
-    padding-top: 0;
     background-size: 55%;
   }
 
