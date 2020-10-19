@@ -188,7 +188,7 @@ body {
     text-align: center;
     padding: 74% 0 0;
     background-size: 95%;
-    background-position: top center;
+    justify-content: space-between;
   }
 
   .main__title {
@@ -208,9 +208,11 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .header {
-    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
   }
 
   .logo {
@@ -223,7 +225,8 @@ body {
   }
 
   .wrapper {
-    width: 100%;
+    margin: auto;
+    width: 80%;
   }
 
   .menu {
@@ -244,6 +247,7 @@ body {
     display: block;
     align-items: center;
     padding-right: 64%;
+    background-size: 95%;
   }
 
   .main__title {
@@ -255,6 +259,7 @@ body {
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
+    margin: 0 90px 40px 8px;
     margin-bottom: 41px;
     left: 46px;
   }
@@ -262,11 +267,16 @@ body {
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     position: relative;
+    padding: 18px 21px;
+    margin: 1px 0 35px 8px;
+    display: inline-block;
   }
 
-  @media (max-width: 1366px) {
+  @media (min-width 1025px) and (max-width: 1366px) {
     .header {
-      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100%;;
     }
 
     .logo {
@@ -279,7 +289,8 @@ body {
     }
 
     .wrapper {
-      width: 100%;
+      margin: auto;
+      width: 80%;
     }
 
     .menu {
@@ -300,21 +311,28 @@ body {
       display: block;
       align-items: center;
       padding-right: 64%;
+      background-size: 95%;
     }
 
     .main__title {
-      font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
       position: relative;
       margin-bottom: 40px;
+      font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
     }
 
     .main__subtitle {
       font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
       position: relative;
+      margin: 0 90px 41px 8px;
+      margin-top: 30px;
       margin-bottom: 41px;
     }
 
     .main__button {
       font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
       position: relative;
+      display: inline-block;
+      padding: 18px 21px;
+      margin: -1px 0 40px 9px;
     }
+  }
