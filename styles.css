@@ -187,7 +187,7 @@ body {
   .main {
     text-align: center;
     padding: 74% 0 0;
-    background-size: 90%;
+    background-size: 95%;
     background-position: top center;
   }
 
@@ -197,12 +197,124 @@ body {
   }
 
   .main__subtitle {
-    left: 30px;
+    left: 42px;
     margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
+    left: 10px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
+
+@media (max-width: 1024px) {
+  .header {
+    margin-bottom: 0;
+  }
+
+  .logo {
+    left: 46px;
+    top: -25px;
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu {
+    position: relative;
+    left: 76px;
+    top: -25px;
+  }
+
+  .menu__item {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    margin-right: 21px;
+  }
+
+  .main {
+    position: relative;
+    padding-bottom: 150px;
+    top: 28px;
+    display: block;
+    align-items: center;
+    padding-right: 64%;
+  }
+
+  .main__title {
+    font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .main__subtitle {
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+    margin-bottom: 41px;
+    left: 46px;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+  }
+
+  @media (max-width: 1366px) {
+    .header {
+      margin-bottom: 0;
+    }
+
+    .logo {
+      left: 81px;
+      top: -24px;
+    }
+
+    .mobile_menu {
+      display: none;
+    }
+
+    .wrapper {
+      width: 100%;
+    }
+
+    .menu {
+      position: relative;
+      left: 43px;
+      top: -25px;
+    }
+
+    .menu__item {
+      font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+      margin-right: 21px;
+    }
+
+    .main {
+      position: relative;
+      padding-bottom: 200px;
+      top: 30px;
+      display: block;
+      align-items: center;
+      padding-right: 64%;
+    }
+
+    .main__title {
+      font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .main__subtitle {
+      font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+      position: relative;
+      margin-bottom: 41px;
+    }
+
+    .main__button {
+      font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+      position: relative;
+    }
