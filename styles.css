@@ -247,7 +247,7 @@ body {
     display: block;
     align-items: center;
     padding-right: 64%;
-    background-size: 95%;
+    background-size: 60%;
   }
 
   .main__title {
@@ -311,7 +311,7 @@ body {
       display: block;
       align-items: center;
       padding-right: 64%;
-      background-size: 95%;
+      background-size: 65%;
     }
 
     .main__title {
