@@ -287,13 +287,14 @@ body {
   }
 
   .logo {
-    left: 80px;
+    left: 78px;
     display: inline-block;
   }
 
   .menu {
     position: relative;
-    left: 5px;
+    left: -5px;
+    right: 30px;
     top: 10px;
   }
 
@@ -304,7 +305,7 @@ body {
 
   .main {
     position: relative;
-    margin: 0;
+    margin: -50px;
     margin-top: 10px;
     margin-left: 40px;
     padding-bottom: 150px;
