@@ -248,7 +248,7 @@ body {
   .main__title {
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
-    left: -20px
+    left: -20px;
     top: 140px;
     margin-bottom: 40px;
   }
@@ -274,11 +274,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100%;
-  }
-
-  .logo {
-    left: 81px;
-    top: -24px;
   }
 
   .mobile_menu {
