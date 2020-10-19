@@ -226,6 +226,7 @@ body {
 
   .menu {
     position: relative;
+}
 
   .menu__item {
     position: relative;
@@ -290,17 +291,12 @@ body {
   }
 
   .menu {
-    display: flex;
-    align-items: center;
-    margin: -10px 20px -5px 0;
+    position: relative;
   }
 
   .menu__item {
-    position: relative;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     margin-right: 21px;
-    text-decoration: none;
-    transition: .5s;
   }
 
   .main {
