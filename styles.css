@@ -270,7 +270,7 @@ body {
   }
 }
 
-  @media (max-width: 1366px) {
+@media (max-width: 1366px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -293,9 +293,8 @@ body {
 
   .menu {
     position: relative;
-    left: -5px;
-    right: 30px;
-    top: 10px;
+    left: 25px;
+    top: 25px;
   }
 
   .menu__item {
@@ -305,9 +304,9 @@ body {
 
   .main {
     position: relative;
-    margin: -50px;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 60px;
     padding-bottom: 150px;
     display: block;
     align-items: center;
