@@ -299,7 +299,6 @@ body {
   .main {
     position: relative;
     padding-bottom: 150px;
-    top: 30px;
     display: block;
     align-items: center;
     padding-right: 50%;
@@ -309,7 +308,7 @@ body {
   .main__title {
     position: relative;
     margin-bottom: 40px;
-    font: 700 50px/66px Roboto, arial, helvetica, sans-serif;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
