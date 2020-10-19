@@ -225,6 +225,7 @@ body {
   }
 
   .menu {
+    margin: 0;
     position: relative;
     left: 51px;
     top: 20px;
@@ -273,7 +274,7 @@ body {
   .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100%;
+    margin-bottom: 100px;
   }
 
   .mobile_menu {
@@ -298,6 +299,7 @@ body {
 
   .main {
     position: relative;
+    margin: 0;
     padding-bottom: 150px;
     display: block;
     align-items: center;
