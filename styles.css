@@ -303,14 +303,13 @@ body {
 
   .main {
     position: relative;
-    margin: 0;
+    margin: 20px;
     margin-top: -105px;
     margin-left: 91px;
     display: block;
     align-items: center;
-    padding-right: 64%;
+    padding-right: 50%;
     background-size: 55%;
-    background-position: top right;
   }
 
   .main__title {
