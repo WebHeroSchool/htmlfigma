@@ -293,18 +293,19 @@ body {
   .menu {
     display: flex;
     align-items: center;
+    margin-left: -20px;
+    background-size: 90%;
   }
 
   .menu__item {
     position: relative;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    margin-left: 20px;
   }
 
   .main {
     position: relative;
     margin: 0;
-    margin-top: -100px;
+    margin-top: -105px;
     margin-left: 84px;
     display: block;
     align-items: center;
@@ -315,15 +316,16 @@ body {
   .main__title {
     position: relative;
     margin: 0;
-    margin-top: 70px;
+    margin-top: 65px;
     margin-bottom: 40px;
+    margin-left: -10px;
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: 0 90px 41px 10px;
+    margin: -5px 90px 41px 5px;
     margin-top: 30px;
     margin-bottom: 41px;
   }
