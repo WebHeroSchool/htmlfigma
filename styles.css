@@ -273,7 +273,7 @@ body {
   .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 
   .mobile_menu {
@@ -286,15 +286,18 @@ body {
   }
 
   .logo {
-    left: 68px;
+    left: 60px;
     display: inline-block;
   }
 
   .menu {
-    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 0 20px 0 -20px;
   }
 
   .menu__item {
+    position: relative;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     margin-right: 22px;
   }
@@ -302,8 +305,8 @@ body {
   .main {
     position: relative;
     margin: 0;
-    margin-top: -150px;
-    margin-left: 80px;
+    margin-top: -115px;
+    margin-left: 82px;
     display: block;
     align-items: center;
     padding-right: 50%;
@@ -321,7 +324,7 @@ body {
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: 0 90px 41px 15px;
+    margin: 0 90px 41px 11px;
     margin-top: 30px;
     margin-bottom: 41px;
   }
@@ -331,6 +334,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -1px 0 40px 5px;
+    margin: -1px 0 40px 3px;
   }
 }
