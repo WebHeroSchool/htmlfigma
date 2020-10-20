@@ -310,7 +310,7 @@ body {
     align-items: center;
     padding-right: 50%;
     background-size: 55%;
-    background-position: 80% 40%;
+    background-position: 90% 30%;
   }
 
   .main__title {
@@ -334,6 +334,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -6px 0 43px -3px;
+    margin: -6px 0 43px -2px;
   }
 }
