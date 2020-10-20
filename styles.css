@@ -293,8 +293,9 @@ body {
   .menu {
     display: flex;
     align-items: center;
+    padding-left: -20px;
     margin-left: -20px;
-    background-size: 90%;
+    background-size: 80%;
   }
 
   .menu__item {
@@ -325,7 +326,7 @@ body {
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: -5px 90px 41px 5px;
+    margin: -5px 90px 41px -5px;
     margin-top: 30px;
     margin-bottom: 41px;
   }
@@ -335,6 +336,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -1px 0 43px 3px;
+    margin: -1px 0 43px -5px;
   }
 }
