@@ -286,7 +286,7 @@ body {
   }
 
   .logo {
-    left: 78px;
+    left: 74px;
     display: inline-block;
   }
 
@@ -296,14 +296,14 @@ body {
 
   .menu__item {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    margin-right: 21px;
+    margin-right: -10px;
   }
 
   .main {
     position: relative;
     margin: 0;
-    margin-top: 0;
-    margin-left: 85px;
+    margin-top: -50px;
+    margin-left: 80px;
     display: block;
     align-items: center;
     padding-right: 50%;
@@ -331,6 +331,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -1px 0 40px 9px;
+    margin: -1px 0 40px 1px;
   }
 }
