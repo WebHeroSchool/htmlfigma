@@ -309,9 +309,8 @@ body {
     display: block;
     align-items: center;
     padding-right: 50%;
-    padding-top: 20px;
     background-size: 55%;
-    background-position: top right;
+    background-position: 70% 50%;
   }
 
   .main__title {
