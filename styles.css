@@ -297,7 +297,7 @@ body {
 
   .menu__item {
     position: relative;
-    left: -74px;
+    left: -76px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -305,12 +305,12 @@ body {
     position: relative;
     margin: 0;
     margin-top: -105px;
-    margin-left: 85px;
+    margin-left: 88px;
     display: block;
     align-items: center;
     padding-right: 50%;
     background-size: 50%;
-    background-position: center;
+    background-position: top right;
   }
 
   .main__title {
