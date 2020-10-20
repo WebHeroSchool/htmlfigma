@@ -286,7 +286,7 @@ body {
   }
 
   .logo {
-    left: 77px;
+    left: 79px;
     display: inline-block;
   }
 
@@ -297,34 +297,33 @@ body {
 
   .menu__item {
     position: relative;
-    left: -40px;
+    left: -80px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
   .main {
     position: relative;
     margin: 0;
-    margin-top: -105px;
-    margin-left: 89px;
+    margin-top: -85px;
+    margin-left: 50px;
     display: block;
     align-items: center;
-    padding-right: 50%;
-    background-size: 50%;
+    padding-right: 40%;
+    background-size: 55%;
   }
 
   .main__title {
     position: relative;
     margin: 0;
-    margin-top: 65px;
+    margin-top: 85px;
     margin-bottom: 40px;
-    margin-left: -3px;
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: -5px 90px 41px 2;
+    margin: -5px 90px 41px 2px;
     margin-top: 30px;
     margin-bottom: 41px;
   }
@@ -334,6 +333,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -3px 0 43px 0;
+    margin: -6px 0 43px -2px;
   }
 }
