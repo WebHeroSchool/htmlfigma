@@ -286,14 +286,14 @@ body {
   }
 
   .logo {
-    left: 71px;
+    left: 74px;
     display: inline-block;
   }
 
   .menu {
     display: flex;
     align-items: center;
-    margin-left: -40px;
+    left: -40px;
   }
 
   .menu__item {
@@ -308,8 +308,8 @@ body {
     margin-left: 89px;
     display: block;
     align-items: center;
-    padding-right: 50%;
-    background-size: 40%;
+    padding-right: 40%;
+    background-size: 60%;
   }
 
   .main__title {
@@ -317,7 +317,7 @@ body {
     margin: 0;
     margin-top: 65px;
     margin-bottom: 40px;
-    margin-left: -5px;
+    margin-left: -3px;
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
@@ -334,6 +334,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -1px 0 43px 0;
+    margin: -1px 0 43px -2зч;
   }
 }
