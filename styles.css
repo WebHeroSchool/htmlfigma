@@ -286,16 +286,14 @@ body {
   }
 
   .logo {
-    left: 66px;
+    left: 71px;
     display: inline-block;
   }
 
   .menu {
     display: flex;
     align-items: center;
-    padding-left: -20px;
-    margin-left: -20px;
-    background-size: 80%;
+    margin-left: -40px;
   }
 
   .menu__item {
@@ -307,11 +305,11 @@ body {
     position: relative;
     margin: 0;
     margin-top: -105px;
-    margin-left: 84px;
+    margin-left: 89px;
     display: block;
     align-items: center;
     padding-right: 50%;
-    background-size: 55%;
+    background-size: 40%;
   }
 
   .main__title {
@@ -319,14 +317,14 @@ body {
     margin: 0;
     margin-top: 65px;
     margin-bottom: 40px;
-    margin-left: -10px;
+    margin-left: -5px;
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: -5px 90px 41px -5px;
+    margin: -5px 90px 41px 0;
     margin-top: 30px;
     margin-bottom: 41px;
   }
@@ -336,6 +334,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -1px 0 43px -5px;
+    margin: -1px 0 43px 0;
   }
 }
