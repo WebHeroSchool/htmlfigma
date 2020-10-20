@@ -308,9 +308,9 @@ body {
     margin-left: 91px;
     display: block;
     align-items: center;
-    padding-right: 50%;
+    padding-right: 64%;
     background-size: 55%;
-    background-position: right center;
+    background-position: top right;
   }
 
   .main__title {
