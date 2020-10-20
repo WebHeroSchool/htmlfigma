@@ -286,7 +286,7 @@ body {
   }
 
   .logo {
-    left: 80px;
+    left: 83px;
     display: inline-block;
   }
 
@@ -297,7 +297,7 @@ body {
 
   .menu__item {
     position: relative;
-    left: -80px;
+    left: -77px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -305,11 +305,11 @@ body {
     position: relative;
     margin: 0;
     margin-top: -105px;
-    margin-left: 50px;
+    margin-left: 80px;
     display: block;
     align-items: center;
-    padding-right: 40%;
-    background-size: 55%;
+    padding-right: 50%;
+    background-size: 50%;
   }
 
   .main__title {
