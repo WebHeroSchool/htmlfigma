@@ -297,14 +297,14 @@ body {
 
   .menu__item {
     position: relative;
-    left: -74px;
+    left: -72px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
   .main {
     position: relative;
-    margin: 20px;
-    margin-top: -105px;
+    margin: 40px;
+    margin-top: -103px;
     margin-left: 91px;
     display: block;
     align-items: center;
