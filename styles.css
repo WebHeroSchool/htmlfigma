@@ -297,7 +297,7 @@ body {
 
   .menu__item {
     position: relative;
-    left: -70px;
+    left: -71px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -309,8 +309,8 @@ body {
     display: block;
     align-items: center;
     padding-right: 50%;
-    background-size: 53%;
-    background-position: 91% 19%;
+    background-size: 54%;
+    background-position: 89% 18%;
   }
 
   .main__title {
@@ -324,7 +324,7 @@ body {
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: -5px 90px 41px 6px;
+    margin: -5px 90px 41px 8px;
     margin-top: 30px;
     margin-bottom: 41px;
   }
@@ -334,6 +334,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -6px 0 43px 0;
+    margin: -6px 0 43px -1px;
   }
 }
