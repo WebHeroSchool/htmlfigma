@@ -212,7 +212,7 @@ body {
   .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
   }
 
   .mobile_menu {
@@ -224,48 +224,53 @@ body {
     width: 80%;
   }
 
+  .logo {
+    display: inline-block;
+  }
+
   .menu {
-    position: relative;
+    display: flex;
+    align-items: center;
   }
 
   .menu__item {
     position: relative;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    margin-right: 21px;
-    text-decoration: none;
   }
 
   .main {
     position: relative;
-    padding-bottom: 100px;
-    top: 28px;
+    margin: 0;
+    margin-top: -103px;
     display: block;
     align-items: center;
     padding-right: 50%;
-    background-size: 60%;
+    background-size: 51%;
+    background-position: 83% 21%;
   }
 
   .main__title {
-    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
-    left: -20px;
-    top: 140px;
+    margin: 0;
+    margin-top: 65px;
     margin-bottom: 40px;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: 0 10px 41px 8px;
+    margin: -5px 90px 41px 0;
+    margin-top: 30px;
     margin-bottom: 41px;
-    left: 46px;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    padding: 18px 21px;
     display: inline-block;
+    padding: 18px 21px;
+    margin: -6px 0 43px 0;
   }
 }
 
@@ -324,7 +329,7 @@ body {
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
-    margin: -5px 90px 41px 2px;
+    margin: -5px 90px 41px 3px;
     margin-top: 30px;
     margin-bottom: 41px;
   }
