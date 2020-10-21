@@ -297,7 +297,7 @@ body {
 
   .menu__item {
     position: relative;
-    left: -71px;
+    left: -73px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -309,8 +309,8 @@ body {
     display: block;
     align-items: center;
     padding-right: 50%;
-    background-size: 54%;
-    background-position: 89% 16%;
+    background-size: 51%;
+    background-position: 83% 21%;
   }
 
   .main__title {
@@ -334,6 +334,6 @@ body {
     position: relative;
     display: inline-block;
     padding: 18px 21px;
-    margin: -6px 0 43px -4px;
+    margin: -6px 0 43px -6px;
   }
 }
