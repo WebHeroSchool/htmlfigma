@@ -213,7 +213,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .mobile_menu {
@@ -222,7 +222,7 @@ body {
 
   .wrapper {
     margin: auto;
-    width: 80%;
+    width: 100%;
   }
 
   .logo {
