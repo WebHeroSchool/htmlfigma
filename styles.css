@@ -208,13 +208,43 @@ body {
   }
 }
 
- @@media ( max-width: 1024px ) {
-   body {
-     margin: 0;
-     padding: 0;
+@media ( max-width: 1024px ) {
+  body {
+    margin: 0;
+    padding: 0;
    }
 
-}
+   .logo {
+     margin: 0 0 0 179px;
+   }
+
+   .menu {
+     margin: 51px 7px 0 0;
+     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+   }
+
+   .main {
+     margin: 51px 5px 0 0;
+     background-size: 55%;
+   }
+
+   .main__title {
+     margin: 0 0 0 -62px;
+     left: 70px;
+     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+   }
+
+   .main__subtitle {
+     margin: -15px 186px 17px -200px;
+     left: 238px;
+     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+   }
+
+   .main__button {
+     margin: 20px 0 0 2px;
+     left: 1px;
+     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+   }
 
 @media (max-width: 1366px) {
   .header {
