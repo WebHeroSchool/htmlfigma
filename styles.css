@@ -225,6 +225,7 @@ body {
   }
 
   .logo {
+    left: -70px;
     display: inline-block;
   }
 
@@ -234,11 +235,13 @@ body {
 
   .menu__item {
     position: relative;
+    left: 70px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
   .main {
     position: relative;
+    left: -70px;
     margin: 0;
     margin-top: -103px;
     padding-right: 50%;
