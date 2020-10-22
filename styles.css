@@ -208,6 +208,14 @@ body {
   }
 }
 
+ @@media ( max-width: 1024px ) {
+   body {
+     margin: 0;
+     padding: 0;
+   }
+
+}
+
 @media (max-width: 1366px) {
   .header {
     display: flex;
