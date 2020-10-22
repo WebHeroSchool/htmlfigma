@@ -213,6 +213,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    margin-left: auto;
   }
 
   .mobile_menu {
@@ -221,7 +222,7 @@ body {
 
   .wrapper {
     margin: auto;
-    width: 100%;
+    width: 80%;
   }
 
   .logo {
@@ -230,6 +231,7 @@ body {
   }
 
   .menu {
+    align-items: center;
     display: flex;
   }
 
@@ -241,11 +243,11 @@ body {
 
   .main {
     position: relative;
-    left: -70px;
     margin: 0;
+    margin-left: -150px;
     margin-top: -103px;
     padding-right: 50%;
-    background-size: 51%;
+    background-size: 65%;
   }
 
   .main__title {
