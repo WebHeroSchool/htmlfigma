@@ -208,50 +208,47 @@ body {
   }
 }
 
-@media ( max-width: 1024px ) {
-  body {
-    margin: 0;
-    padding: 0;
-   }
-
+@media (max-width: 1024px) {
    .header {
-     display: flex;
-     justify-content: space-between;
-     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
    }
 
    .mobile_menu {
-     display: none;
+    display: none;
    }
 
    .wrapper {
-     margin: auto;
-     width: 80%;
+    margin: 0;
+    width: 100%;
    }
 
    .logo {
-     left: 83px;
-     display: inline-block;
+    display: inline-block;
    }
 
    .menu {
-     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
    }
 
    .main {
-     background-size: 60%;
+    position: relative;
+    margin: 0;
+    margin-left: -70px;
+    background-size: 75%;
    }
 
    .main__title {
-     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
    }
 
    .main__subtitle {
-     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
    }
 
    .main__button {
-     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
    }
 }
 
