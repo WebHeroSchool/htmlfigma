@@ -217,7 +217,7 @@ body {
   .wrapper { max-width: 932px; }
 
   .menu {
-    margin: 2px 5px -4px 0px;
+    margin: 2px 5px -4px 0;
   }
 
   .main {
@@ -241,20 +241,20 @@ body {
   }
 
   .logo {
-    margin: -1px 0 0 -15px;
+    margin: -12px 1px 0 -16px;
     position: relative;
     padding: 40px 0;
   }
 
   .burger-menu {
-    margin: 31px -19px 30px 0;
+    margin: 39px -20px 44px 0;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
   .header {
-    margin-bottom: -24px;
+    margin-bottom: -37px;
   }
 
   .main {
@@ -265,23 +265,23 @@ body {
   }
 
   .main-content {
-    max-width: 313px;
+    max-width: 284px;
     padding-top: 13px;
-    margin: 0 0 0 9px;
+    margin: 0 0 0 8px;
   }
 
   .main__title {
-    margin-bottom: -4px;
+    margin: -1px -1px 0 0;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin-bottom: 25px;
+    margin: -4px 0 0 2px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
-    margin: 19px 0 0 -14px;
+    margin: 19px -1px 0px -13px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
