@@ -218,13 +218,14 @@ body {
   }
 
   .menu__item {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     margin-right: 25px;
   }
 
   .main {
     padding-right: 0;
     background-size: 510px;
-    padding-bottom: 136px;
+    padding-bottom: 130px;
   }
 
   .main-content {
@@ -241,15 +242,18 @@ body {
 
   .main__subtitle {
     margin: 0;
-    padding: 40px 0 0 0;
+    padding: 37px 0 0 0;
     align-items: initial;
     top: 0;
     left: 0;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-    min-width: 300px;
+    max-width: 350px;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    margin: 36px 0 0 -6px;
+    top: 0;
+    left: 0;
   }
 }
