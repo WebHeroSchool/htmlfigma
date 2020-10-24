@@ -8,7 +8,9 @@ body {
 
 .wrapper {
   margin: auto;
-  width: 80%;
+  width: auto;
+  max-width: 1530px;
+  padding: 0 40px 0 40px;
 }
 
 .header {
@@ -208,117 +210,46 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
-   .header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
-   }
-
-   .mobile_menu {
-    display: none;
-   }
-
-   .wrapper {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-   }
-
-   .logo {
-    display: inline-block;
-   }
-
-   .menu {
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-   }
-
-   .main {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    margin-left: -70px;
-    background-size: 75%;
-   }
-
-   .main__title {
-    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
-   }
-
-   .main__subtitle {
-    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-   }
-
-   .main__button {
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-   }
-}
-
 @media (max-width: 1366px) {
+  .wrapper { max-width: 929px; }
+
   .header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
-  }
-
-  .mobile_menu {
-    display: none;
-  }
-
-  .wrapper {
-    margin: auto;
-    width: 80%;
-  }
-
-  .logo {
-    left: 83px;
-    display: inline-block;
-  }
-
-  .menu {
-    display: flex;
-    align-items: center;
+    margin-bottom: 54px;
   }
 
   .menu__item {
-    position: relative;
-    left: -73px;
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    margin-right: 25px;
   }
 
   .main {
-    position: relative;
-    margin: 0;
-    margin-top: -103px;
-    margin-left: 91px;
-    display: block;
-    align-items: center;
-    padding-right: 50%;
-    background-size: 51%;
-    background-position: 83% 21%;
+    padding-right: 0;
+    background-size: 510px;
+    padding-bottom: 136px;
+  }
+
+  .main-content {
+    max-width: 500px;
+    padding-top: 15px;
   }
 
   .main__title {
-    position: relative;
-    margin: 0;
-    margin-top: 65px;
-    margin-bottom: 40px;
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    margin: 0;
   }
 
   .main__subtitle {
+    margin: 0;
+    padding: 40px 0 0 0;
+    align-items: initial;
+    top: 0;
+    left: 0;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-    position: relative;
-    margin: -5px 90px 41px 3px;
-    margin-top: 30px;
-    margin-bottom: 41px;
+    min-width: 300px;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    position: relative;
-    display: inline-block;
-    padding: 18px 21px;
-    margin: -6px 0 43px -6px;
   }
 }
