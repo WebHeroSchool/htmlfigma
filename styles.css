@@ -234,7 +234,11 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
+  
+}
+
+@media (max-width: 390px) {
   .logo__text,
   .menu {
     display: none;
