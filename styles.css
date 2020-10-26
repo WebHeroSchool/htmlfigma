@@ -234,9 +234,9 @@ body {
   }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 828px) {
   .header {
-    margin-bottom: 14px;
+    margin-bottom: 24px;
   }
 
   .main {
@@ -250,19 +250,47 @@ body {
   }
 
   .main__title {
-    font: 700 38px/58px pt_serifbold, arial, helvetica, sans-serif;
+    font: 700 42px/58px pt_serifbold, arial, helvetica, sans-serif;
   }
   .main__subtitle {
-    font: 500 14px/21px Roboto, arial, helvetica, sans-serif;
-    max-width: 301px;
+    font: 500 16px/21px Roboto, arial, helvetica, sans-serif;
+    max-width: 330px;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     padding: 12px 7px;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 780px) {
+  .header {
+    margin-bottom: 6px;
+  }
+
+  .main {
+    padding-bottom: 72px;
+    background-size: 362px;
+  }
+
+  .main-content {
+    max-width: 346px;
+    padding-top: 8px;
+  }
+
+  .main__title {
+    font: 700 38px/58px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main__subtitle {
+    font: 500 16px/21px Roboto, arial, helvetica, sans-serif;
+    max-width: 310px;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+
+@media (max-width: 600px) {
   .logo__text,
   .menu {
     display: none;
