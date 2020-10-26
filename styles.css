@@ -293,6 +293,27 @@ body {
   }
 }
 
+@media (max-width: 732px) {
+  .header {
+    margin-bottom: -10px;
+  }
+
+  .main {
+    background-size: 340px;
+  }
+
+  .main__title {
+    font: 700 28px/48px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    font: 500 14px/19px Roboto, arial, helvetica, sans-serif;
+    max-width: 209px;
+    margin-top: -19px;
+
+
+}
+
 @media (max-width: 600px) {
   .logo__text,
   .menu {
