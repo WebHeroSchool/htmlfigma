@@ -316,6 +316,61 @@ body {
   .main {
     text-align: center;
     padding: 248px 0 0;
+    background-size: 83%;
+    background-position: top center;
+  }
+
+  .main-content {
+    max-width: 518px;
+    padding-top: 155px;
+  }
+
+  .main__title {
+    margin: -1px -1px 0 0;
+    font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 33px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    margin: 25px -1px 0 -13px;
+    padding: 12px 21px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 390px) {
+  .logo__text,
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    margin: -2px 1px 0 -16px;
+    position: relative;
+    padding: 40px 0;
+  }
+
+  .burger-menu {
+    margin: 32px -16px 29px 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    margin-bottom: -22px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 248px 0 0;
     background-size: 95%;
     background-position: top center;
   }
