@@ -276,7 +276,10 @@ body {
   }
 
   .main__subtitle {
-    margin: -4px 0 0 2px;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 30px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
