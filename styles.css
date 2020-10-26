@@ -252,6 +252,7 @@ body {
   .main__title {
     font: 700 42px/58px pt_serifbold, arial, helvetica, sans-serif;
   }
+
   .main__subtitle {
     font: 500 16px/21px Roboto, arial, helvetica, sans-serif;
     max-width: 330px;
