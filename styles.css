@@ -113,6 +113,10 @@ body {
   background: top right no-repeat url(img/mainimg.svg);
 }
 
+.section {
+  display: none;
+}
+
 .main__title {
   position: relative;
   top: 73px;
@@ -313,8 +317,10 @@ body {
   .menu-btn span::before,
   .menu-btn span::after {
     position: absolute;
-    top: 50%; margin-top: -1px;
-    left: 50%; margin-left: -10px;
+    top: 50%;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -10px;
     width: 20px;
     height: 2px;
     background-color: #0056ec;
@@ -324,7 +330,7 @@ body {
   .menu-btn span::after {
     content: "";
     display: block;
-    transition: 0.5s;
+    transition: .5s;
   }
 
   .menu-btn span::before {
