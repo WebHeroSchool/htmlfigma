@@ -356,7 +356,7 @@ body {
 
   .menu-nav {
     transition: .5s;
-    transform-origin: right сenter;
+    transform-origin: right center;
     transform: scaleX(0) translateX(20%);
     opacity: 1;
   }
