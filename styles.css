@@ -113,7 +113,7 @@ body {
   background: top right no-repeat url(img/mainimg.svg);
 }
 
-.section {
+.menu-nav {
   display: none;
 }
 
@@ -356,7 +356,7 @@ body {
 
   .menu-nav {
     transition: .5s;
-    transform-origin: right;
+    transform-origin: right сenter;
     transform: scaleX(0) translateX(20%);
     opacity: 1;
   }
