@@ -163,8 +163,8 @@ body {
 
 .main__button:hover {
   opacity: .5;
-  background: #52D2BC;
-  color: #0056EC;
+  background: #52d2bc;
+  color: #0056ec;
   transform: scale(1.05);
 }
 
