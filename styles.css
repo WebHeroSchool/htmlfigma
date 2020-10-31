@@ -103,16 +103,6 @@ body {
   width: 100%;
 }
 
-.burger-menu {
-  display: none;
-}
-
-.burger-menu_whale {
-  width: 25px;
-  height: 3px;
-  background: #0056ec;
-}
-
 .main {
   position: relative;
   padding-bottom: 250px;
@@ -121,6 +111,16 @@ body {
   align-items: center;
   padding-right: 64%;
   background: top right no-repeat url(img/mainimg.svg);
+}
+
+.burger-menu {
+  display: none;
+}
+
+.burger-menu_whale {
+  width: 25px;
+  height: 3px;
+  background: #0056ec;
 }
 
 .main__title {
@@ -162,7 +162,10 @@ body {
 }
 
 .main__button:hover {
-  opacity: .5;
+  transition: 1s;
+  background: #52d2bc;
+  color: #0056ec;
+  transform: scale(1.05);
 }
 
 @media (max-width: 1366px) {
@@ -358,13 +361,6 @@ body {
     margin: -2px 1px 0 -16px;
     position: relative;
     padding: 40px 0;
-  }
-
-  .burger-menu {
-    margin: 32px -16px 29px 0;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 
   .header {
