@@ -162,8 +162,7 @@ body {
 }
 
 .main__button:hover {
-  opacity: .5;
-  transition: 0.5s;
+  transition: 1s;
   background: #52d2bc;
   color: #0056ec;
   transform: scale(1.05);
