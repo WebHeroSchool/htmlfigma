@@ -166,6 +166,7 @@ body {
   background: #52d2bc;
   color: #0056ec;
   transform: scale(1.05);
+  border-radius: none;
 }
 
 @media (max-width: 1366px) {
