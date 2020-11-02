@@ -27,7 +27,7 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 45px;
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -55,7 +55,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin: 1px 7px -5px 0;
+  margin: 3px 6px -4px 0;
 }
 
 .menu__item {
@@ -125,7 +125,7 @@ body {
 
 .main__title {
   position: relative;
-  top: 73px;
+  top: 75px;
   left: -10px;
   margin: -2px -20px 40px 10px;
   margin-bottom: 40px;
@@ -138,8 +138,8 @@ body {
 
 .main__subtitle {
   position: relative;
-  top: 70px;
-  left: -10px;
+  top: 71px;
+  left: -9px;
   margin: 0 90px 41px 8px;
   margin-top: 30px;
   margin-bottom: 41px;
@@ -151,8 +151,8 @@ body {
   top: 72px;
   right: 8px;
   display: inline-block;
-  padding: 16px 26px;
-  margin: -1px 0 40px 9px;
+  padding: 17px 26px;
+  margin: -2px 0 0 2px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
@@ -241,7 +241,7 @@ body {
 
 @media (max-width: 966px) {
   .header {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main {
@@ -260,7 +260,6 @@ body {
     max-width: 349px;
   }
 }
-
 
 @media (max-width: 828px) {
   .header {
@@ -336,8 +335,8 @@ body {
   }
 
   .main__subtitle {
-   font: 500 15px/19px Roboto, arial, helvetica, sans-serif;
-   max-width: 266px
+    font: 500 15px/19px Roboto, arial, helvetica, sans-serif;
+    max-width: 266px;
   }
 
   .main__button {
@@ -468,6 +467,7 @@ body {
 
   .main__title {
     margin: -1px -1px 0 0;
+    padding: 0;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
